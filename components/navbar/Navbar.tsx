@@ -1,16 +1,15 @@
-import Link from 'next/link'
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
+"use client";
+import MenuOverlay from '../menu-overlay/MenuOverlay';
+import Header from '../header/Header';
+import { useState } from 'react'
 
 const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
-    <div className='flex flex-row justify-between px-20 py-20'>
-        <div><Link href="/">Felipe M.</Link></div>
-        <div className='flex flex-row justify-between gap-x-4 items-center'>
-            <div><Link href="/about">About</Link></div>
-            <div>BR</div>
-            <div><BsFillMoonFill /></div>
-            <div className='text-xl'>+</div>
-        </div>
+    <div>
+      <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
+      <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
     </div>
   )
 }
