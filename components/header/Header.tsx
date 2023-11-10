@@ -1,9 +1,9 @@
 
 "use client";
-import React from 'react'
 import Link from 'next/link'
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
 import { useState } from 'react'
+import LocaleSwitcher from '../locale-switcher/LocaleSwitcher';
 
 type HeaderProps = {
   navbarOpen: boolean
@@ -12,13 +12,14 @@ type HeaderProps = {
 
 const Header = ({ navbarOpen, setNavbarOpen }: HeaderProps) => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
-  const [isPtBr, setIsPtBr] = useState<boolean>(true)
   
   return (
     <div className='flex flex-row justify-between px-[8%] py-5 sm:py-8 lg:py-10 text-center'>
       <Link className='self-center text-xl' href="/"><b>Felipe M.</b> </Link>
       <div className='flex flex-row justify-between gap-x-5 items-center'>
-          <div className='cursor-pointer' onClick={() => setIsPtBr(!isPtBr)}>{isPtBr ? "BR" : "EN"}</div>
+      
+          <LocaleSwitcher />
+
           <div className='cursor-pointer' onClick={() => setIsDarkMode(!isDarkMode)}>{isDarkMode ? <BsFillMoonFill /> : <BsFillSunFill />}</div>
           <button
           className="flex top-0 right-0 z-20 relative w-10 h-10 text-white focus:outline-none"

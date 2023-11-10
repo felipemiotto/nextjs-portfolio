@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 import Navbar from '@/components/navbar/Navbar'
-import LocaleSwitcher from '@/components/locale-switcher/LocaleSwitcher'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <LocaleSwitcher />
         {children}
       </body>
     </html>
