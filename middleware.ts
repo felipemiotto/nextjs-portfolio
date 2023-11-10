@@ -10,10 +10,9 @@ function getLocale(request: NextRequest): string | undefined {
   // O negociador espera um objeto simples, então precisamos transformar os cabeçalhos
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
-  //console.log("Negociador", negotiatorHeaders)
+
   // @ts-ignore locales são readonly
   const locales: string[] = i18n.locales
-  console.log("Headers: ", negotiatorHeaders)
 
   // Use negotiator e intl-localematcher para obter a melhor localidade
   let languages = new Negotiator({ headers: negotiatorHeaders }).languages(
