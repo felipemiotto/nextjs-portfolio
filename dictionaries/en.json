@@ -1,10 +1,13 @@
 {
- "home": {
-    "title-1": "You're Welcome, ",
-    "title-2": "Felipe here! I'm a guy passionate about technology =)",
-    "subtitle": "I'm a fullstack web developer lorem ipsum setasdasd  asdasda aspda Im a fullstack",
-    "more-about-me": "More about me",
-    "see-my-experiences": "See my experiences"
- },
- "current-locale": "en"
+   "home": {
+      "title-1": "You're Welcome, ",
+      "title-2": "Felipe here! I'm a guy passionate about technology =)",
+      "subtitle": "I'm a fullstack web developer lorem ipsum setasdasd  asdasda aspda Im a fullstack",
+      "more-about-me": "More about me",
+      "see-my-experiences": "See my experiences"
+   },
+   "messages": {
+      "not-implemented-yet": "No implemented yet"
+   },
+   "current-locale": "en"
 }

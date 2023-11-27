@@ -6,5 +6,8 @@
         "more-about-me": "Mais sobre mim",
         "see-my-experiences": "Veja as minha experiencias"
      },
+     "messages": {
+        "not-implemented-yet": "Ainda não implementado"
+     },
     "current-locale": "pt"
 }
