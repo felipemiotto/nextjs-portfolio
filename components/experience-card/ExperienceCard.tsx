@@ -16,7 +16,7 @@ function ExperienceCard({ title, company, date, description }: ExperienceCardPro
         </div>
       </div>
       <ul>
-        {description.map((desc) => <li>{desc}</li>)}
+        {description.map((item, index) => <li key={index}>{item}</li>)}
       </ul>
     </div>
   )

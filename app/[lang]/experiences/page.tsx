@@ -13,8 +13,9 @@ export default async function Experiences(
     <main className="page-content">
       <PageTitle title={dictionary.experiences.title}/>
       <div className='mb-20'>        
-        {dictionary.experiences.jobs.map(job => 
+        {dictionary.experiences.jobs.map((job, key) => 
           <ExperienceCard 
+            key={key}
             company={job.company}
             date={job.date}
             description={job.description}
