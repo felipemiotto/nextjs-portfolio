@@ -2,8 +2,6 @@ import PageTitle from "@/components/page-title/PageTitle";
 import { getDictionary } from '@/lib/get-dictionary'
 import  { Locale } from '@/i18n-config'
 import Link from "next/link";
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import { FaXTwitter } from 'react-icons/fa6'
 import styles from "./styles.module.css"
 
 export default async function Contact(

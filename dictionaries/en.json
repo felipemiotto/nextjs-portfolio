@@ -40,6 +40,54 @@
       "email": "E-mail",
       "social-media": "Social medias"
    },
+   "experiences": {
+      "title": "Experiences",
+      "jobs": [
+         {
+            "title": "Full Stack Developer",
+            "company": "Lar Cooperativa Agroindustrial",
+            "date": "07/2023 - Current",
+            "description": [
+               "I developed REST APIs using technologies: C#, SQL Server, Docker e Entity Framework.",
+               "I developed web applications using technologies: React.js, Typescript e, Docker.",
+               "I woked on modernization of legacy software."
+            ]
+         },
+         {
+            "title": "Co-Founder & CTO & Full Stack Developer (remote)",
+            "company": "Natíz",
+            "date": "06/2021 - Current",
+            "description": [
+               "I worked on all the demands related to the development of systems, from the gathering of requirements to the implementation of web solutions..",
+               "I designed and developed GraphQL and REST APIs using technologies: Node.js, Express, MongoDB, Postgres, Prisma, GraphQL, Typescript.",
+               "I developed web applications using technologies: React.js, Nuxt, Typescript.",
+               "I set up project infrastructure on Google Cloud.",
+               "I created Continuous Integration pipelines on Google Cloud Build.",
+               "I created a page for admins using Retool (low code)."
+            ]
+         },
+         {
+            "title": "Backend developer (remote)",
+            "company": "People Club",
+            "date": "10/2020 - 06/2021",
+            "description": [
+               "Assisted in the development and maintenance of GraphQL and REST APIs using microservice frameworks with Apollo Federation.",
+               "I worked with technologies: Node.js, Typescript, GraphQL, MySQL, Firestore, MongoDB, ElasticSearch and Redis.",
+               "Developed unit tests and bug fixes to improve software quality and performance.",
+               "Participated in code reviews to ensure adherence to coding best practices and standards."
+            ]
+         },
+         {
+            "title": "Full Stack Developer (remote)",
+            "company": "Trend Mobile",
+            "date": "04/2019 - 09/2020",
+            "description": [
+               "Participated in activities related to the development of various websites, such as: requirements analysis, data modeling, website development, testing and maintenance.",
+               "I worked with technologies: HTML, CSS, Javascript, PHP, CodeIgniter, SQL, jQuery. "
+            ]
+         }
+      ]
+   },
    "messages": {
       "notImplementedYet": "Not implemented yet"
    },

@@ -40,6 +40,45 @@
       "email": "E-mail",
       "social-media": "Mídias sociais"
    },
+    "experiences": {
+        "title": "Experiências",
+        "jobs": [
+            {
+               "title": "Desenvolvedor Full Stack (remoto)",
+               "company": "Lar Cooperativa Agroindustrial",
+               "date": "07/2023 - Atual",
+               "description": [
+                  "Desenvolvi APIs REST usando as tecnologias: C#, SQL Server, Docker e Entity Framework.",
+                  "Desenvolvi aplicações web usando as tecnologias: React.js, Typescript e, Docker.",
+                  "Trabalhei na modernização de softwares legados."
+               ]
+            },
+            {
+                "title": " Co-Fundador & CTO & Desenvolvedor Full Stack (remoto)",
+                "company": "Natíz",
+                "date": "06/2021 - Atual",
+                "description": [
+                    "Atuei em todas as demandas voltadas ao desenvolvimento de sistemas, desde o levantamento de requisitos até a implantação de soluções.",
+                    "Fiz o design e desenvolvi APIs GraphQL e REST utilizando as tecnologias: Node.js, Express, MongoDB, Postgres, Prisma, GraphQL, Typescript.",
+                    "Desenvolvi aplicações web utilizando as tecnologias: React.js, Nuxt, Typescript.",
+                    "Configurei a infraestrutura destes projetos no Google Cloud",
+                    "Criei pipelines de Continuous Integration no Google Cloud Build.",
+                    "Criei uma página para administradores usando Retool (low code)."
+                ]
+             },
+             {
+                "title": "Desenvolvedor backend (remoto)",
+                "company": "People Club",
+                "date": "10/2020 - 06/2021",
+                "description": [
+                    "Auxiliei no desenvolvimento e manutenção de APIs GraphQL e REST usando estruturas de microsserviços com Apollo Federation.",
+                    "Trabalhei com as tecnologias: Node.js, Typescript, GraphQL, MySQL, Firestore, MongoDB, ElasticSearch e Redis.",
+                    "Desenvolvi testes de unidade e correção de bugs para melhorar a qualidade e o desempenho do software.",
+                    "Participei de revisões de código para garantir a adesão às melhores práticas e padrões de codificação."
+                ]
+             }
+        ]
+    },
     "messages": {
         "notImplementedYet": "Ainda não implementado"
      },
