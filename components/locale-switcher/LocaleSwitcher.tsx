@@ -14,11 +14,20 @@ function LocaleSwitcher() {
         return segments.join('/')
     }
 
+    const setCookie = (locale: string) => {
+        document.cookie = `NEXT_LOCALE=${locale}; max-age=31536000; path=/`
+    }
+
+    const handleLanguageChange = () => {
+        setIsPtBr(!isPtBr)
+        setCookie(isPtBr ? 'pt' : 'en')
+    }
+
     return (
     <>
         <Link
             href={redirectedPathName(isPtBr ? 'pt' : 'en')}
-            onClick={() => setIsPtBr(!isPtBr)}
+            onClick={() => handleLanguageChange()}
         >
             {isPtBr ? 'EN' : 'BR'}
         </Link>

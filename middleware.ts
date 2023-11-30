@@ -25,8 +25,6 @@ function getLocale(request: NextRequest): string | undefined {
 }
 
 export function middleware(request: NextRequest) {
-
-
   const pathname = request.nextUrl.pathname
 
   // Verifique se há alguma localidade suportada no nome do caminho
@@ -36,7 +34,9 @@ export function middleware(request: NextRequest) {
 
   // Redirecionar se não houver localidade
   if (pathnameIsMissingLocale) {
-    const locale = getLocale(request)
+    const locale = request.cookies.get('NEXT_LOCALE')?.value
+      ? request.cookies.get('NEXT_LOCALE')?.value
+      : getLocale(request)
 
     // Exemplo se a solicitação recebida é /products
     // A nova URL agora é /pt/products
