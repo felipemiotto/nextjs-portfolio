@@ -6,8 +6,37 @@
         "more-about-me": "Mais sobre mim",
         "see-my-experiences": "Veja as minha experiencias"
      },
-     "messages": {
-        "not-implemented-yet": "Ainda não implementado"
+    "studies": {
+        "big-o": "BigO",
+        "arrays": "Arrays",
+        "hash-map": "HashMap",
+        "two-pointers": "Two Pointers (dois ponteiros)",
+        "stack": "Stack (pilha)",
+        "binary-search": "Binary Search (busca binária)",
+        "sliding-window": "Sliding Window",
+        "quick-sort": "Quick Sort",
+        "recurtion": "Recurtion",
+        "linked-list": "Linked List (listas linkadas)",
+        "doubly-linked-list": "Doubly Linked List (listas duplamente linkadas)",
+        "deque": "DEQUE",
+        "trees": "Trees (arvores)",
+        "tries": "Tries",
+        "backtracking": "Backtracking",
+        "heap-priority-queue": "Heap/Priority Queue",
+        "intervals": "Intervals",
+        "graph": "Graph (grafos)",
+        "dijkstra-algorithm": "Algoritimo Dijkstra",
+        "a-algorithm": "Algoritimo A*",
+        "dynamic-programming": "Programação dinâmica)",
+        "kadanes-algorithm": "Algoritimo Kadane's",
+        "greedy": "Greedy (algoritimo guloso)",
+        "bit-manipulation": "Manipulação de Bit",
+        "development-patterns": "Padrões de desenvolvimento",
+        "math-and-geometry": "Matematica e geometria",
+        "turtoise-hare-algorithm": "Algoritimo Turtoise Hare"
+    },
+    "messages": {
+        "notImplementedYet": "Ainda não implementado"
      },
     "current-locale": "pt"
 }

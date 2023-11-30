@@ -6,8 +6,37 @@
       "more-about-me": "More about me",
       "see-my-experiences": "See my experiences"
    },
+   "studies": {
+      "big-o": "BigO",
+      "arrays": "Arrays",
+      "hash-map": "HashMap",
+      "two-pointers": "Two Pointers",
+      "stack": "Stack",
+      "binary-search": "Binary Search",
+      "sliding-window": "Sliding Window",
+      "quick-sort": "Quick Sort",
+      "recurtion": "Recurtion",
+      "linked-list": "Linked List",
+      "doubly-linked-list": "Doubly Linked List",
+      "deque": "DEQUE",
+      "trees": "Trees",
+      "tries": "Tries",
+      "backtracking": "Backtracking",
+      "heap-priority-queue": "Heap/Priority Queue",
+      "intervals": "Intervals",
+      "graph": "Graph",
+      "dijkstra-algorithm": "Dijkstra Algorithm",
+      "a-algorithm": "A* Algorithm",
+      "dynamic-programming": "Dynamic Programming",
+      "kadanes-algorithm": "Kadane's Algorithm",
+      "greedy": "Greedy",
+      "bit-manipulation": "Bit Manipulation",
+      "development-patterns": "Development Patterns",
+      "math-and-geometry": "Math And Geometry",
+      "turtoise-hare-algorithm": "Turtoise Hare Algorithm"
+   },
    "messages": {
-      "not-implemented-yet": "No implemented yet"
+      "notImplementedYet": "Not implemented yet"
    },
    "current-locale": "en"
 }

@@ -9,89 +9,117 @@ async function Studies(
 ) {
   const dictionary = await getDictionary(lang)
 
+  const notImplementedYet = dictionary.messages.notImplementedYet
+  
+  
   return (
     <main className="page-content pb-10">
-      <div className='flex flex-col'>
+      <div className="flex flex-col">
         <Link className={styles.disabled} href={'/studies/big-o'}>
-          BigO - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['big-o']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+        
         <Link className={styles.disabled} href={'/studies/arrays'}>
-          Arrays - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.arrays} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/hash-map'}>
-          HashMap - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['hash-map']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/two-pointer'}>
-          Two Pointers - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['two-pointers']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/stack'}>
-          Stack - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.stack} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/binary-search'}>
-          Binary Search - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['binary-search']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/sliding-window'}>
-          Sliding Window - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['sliding-window']} Window - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/quick-sort'}>
-          Quick Sort - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['quick-sort']} Sort - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/recurtion'}>
-          Recurtion - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.recurtion} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/linked-list'}>
-          Linked List - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['linked-list']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+        
         <Link className={styles.disabled} href={'/studies/doubly-linked-list'}>
-          Doubly Linked List - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['doubly-linked-list']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/deque'}>
-          DEQUE - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.deque} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/trees'}>
-          Trees - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.trees} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/tries'}>
-          Tries - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.tries} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/backtracking'}>
-          Backtracking - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.backtracking} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
         <Link className={styles.disabled} href={'/studies/heap-priority-queue'}>
-          Heap/Priority Queue - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['heap-priority-queue']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/intervals'}>
-          Intervals - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.intervals} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/graph'}>
-          Graph - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.graph} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/dijkstra-algorithm'}>
-          Dijkstra Algorithm - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['dijkstra-algorithm']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/a-algorithm'}>
-          A* Algorithm - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['a-algorithm']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/dynamic-programming'}>
-          Dynamic Programming - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['dynamic-programming']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/kadanes-algorithm'}>
-          Kadane's Algorithm - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['kadanes-algorithm']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/greedy'}>
-          Greedy - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies.greedy} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/bit-manipoulation'}>
-          Bit Manipulation - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['bit-manipulation']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/development-patterns'}>
-          Development Patterns - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['development-patterns']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/math-and-geometry'}>
-          Math And Geometry - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['math-and-geometry']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
+
         <Link className={styles.disabled} href={'/studies/turtoise-hare-algorithm'}>
-          Turtoise Hare Algorithm - <span className={styles.notImplementedYet}>{dictionary.messages['not-implemented-yet']}</span>
+          {dictionary.studies['turtoise-hare-algorithm']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
         </Link>
       </div>
     </main>
