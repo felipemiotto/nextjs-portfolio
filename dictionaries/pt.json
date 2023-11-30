@@ -35,6 +35,11 @@
         "math-and-geometry": "Matematica e geometria",
         "turtoise-hare-algorithm": "Algoritimo Turtoise Hare"
     },
+    "contact": {
+      "title": "Contato",
+      "email": "E-mail",
+      "social-media": "Mídias sociais"
+   },
     "messages": {
         "notImplementedYet": "Ainda não implementado"
      },
