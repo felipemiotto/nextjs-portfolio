@@ -16,7 +16,7 @@ async function Studies(
   return (
     <main className="page-content pb-10">
       <PageTitle title={dictionary.studies.title}/>
-
+      <p className='mb-8'>{dictionary.studies.text}</p>
       <div className="flex flex-col">
         <Link className={styles.disabled} href={'/studies/big-o'}>
           {dictionary.studies['big-o']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>

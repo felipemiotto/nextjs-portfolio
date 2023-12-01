@@ -7,7 +7,8 @@
       "see-my-experiences": "See my experiences"
    },
    "studies": {
-      "title": "Estudos",
+      "title": "Studies",
+      "text": "Page used to apply knowledge related to various areas focused on software development in practice",
       "big-o": "BigO",
       "arrays": "Arrays",
       "hash-map": "HashMap",

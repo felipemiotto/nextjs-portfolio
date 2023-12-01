@@ -6,7 +6,7 @@ type MenuOverlayProps = {
     navbarOpen: boolean
     setNavbarOpen: (isOpen: boolean) => void
 }
-  
+
 const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
   return (
     <nav className={`

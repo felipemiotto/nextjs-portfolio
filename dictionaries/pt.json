@@ -4,10 +4,11 @@
         "title-2": "Eu sou o Felipe Antônio Miotto =)",
         "subtitle": "Sou um desenvolvedor web fullstack que resolve os mais variados problemas.",
         "more-about-me": "Mais sobre mim",
-        "see-my-experiences": "Veja as minha experiencias"
+        "see-my-experiences": "Minhas experiencias"
      },
     "studies": {
-        "title": "Studies",
+        "title": "Estudos",
+        "text": "Página usada para aplicar na prática conhecimentos relacionados a várias áreas voltadas ao desenvolvimento de software",
         "big-o": "BigO",
         "arrays": "Arrays",
         "hash-map": "HashMap",
