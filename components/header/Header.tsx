@@ -1,8 +1,6 @@
 
 "use client";
 import Link from 'next/link'
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
-import { useState } from 'react'
 import LocaleSwitcher from '../locale-switcher/LocaleSwitcher';
 import ThemeSwitcher from '../theme-switcher/ThemeSwitcher';
 import { useTheme } from 'next-themes';
@@ -23,7 +21,6 @@ const Header = ({ navbarOpen, setNavbarOpen }: HeaderProps) => {
           <LocaleSwitcher />
 
           <ThemeSwitcher />
-          {/* <div className='cursor-pointer' onClick={() => setIsDarkMode(!isDarkMode)}>{isDarkMode ? <BsFillMoonFill /> : <BsFillSunFill />}</div> */}
           <button
           className={`flex top-0 right-0 z-20 relative w-10 h-10 text-${theme === 'dark' ? 'white' : 'black'} focus:outline-none`}
           onClick={() => setNavbarOpen(!navbarOpen)}

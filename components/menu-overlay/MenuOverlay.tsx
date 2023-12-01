@@ -5,7 +5,7 @@ import SocialMedia from '../social-media/SocialMedia'
 type MenuOverlayProps = {
     navbarOpen: boolean
     setNavbarOpen: (isOpen: boolean) => void
-  }
+}
   
 const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
   return (

@@ -1,8 +1,8 @@
 {
     "home": {
-        "title-1": "Bem vindo, ",
-        "title-2": "Felipe por aqui! Sou um cara apaixonado por tecnologia =)",
-        "subtitle": "Sou um desenvolvedor web full stack lorem ipsum setasdasd  asdasda aspda Im a fullstack",
+        "title-1": "Que bom ter você aqui! ",
+        "title-2": "Eu sou o Felipe Antônio Miotto =)",
+        "subtitle": "Sou um desenvolvedor web fullstack que resolve os mais variados problemas.",
         "more-about-me": "Mais sobre mim",
         "see-my-experiences": "Veja as minha experiencias"
      },
@@ -81,6 +81,13 @@
     },
     "messages": {
         "notImplementedYet": "Ainda não implementado"
+     },
+     "header-menu": {
+        "home": "Home",
+        "bio": "Bio",
+        "experiences": "Experiências",
+        "contact": "Contato",
+        "studies": "Estudos"
      },
     "current-locale": "pt"
 }
