@@ -8,9 +8,9 @@ type ExperienceCardProps = {
 function ExperienceCard({ title, company, date, description }: ExperienceCardProps) {
   return (
     <div className="border-b-2 pb-4 pt-4">
-      <div className="flex justify-between flex-col md:flex-row items-center mb-4">
-        <b>{company}</b>
-        <div className="flex flex-col mt-7">
+      <div className="flex justify-between gap-5 flex-col md:flex-row items-center mb-4">
+        <b className="text-xl">{company}</b>
+        <div className="flex gap-4">
           <p>{title}</p>
           <p>{date}</p>
         </div>
