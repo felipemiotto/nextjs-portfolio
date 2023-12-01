@@ -6,9 +6,9 @@ type PageTitleProps = {
 
 function PageTitle({ title }: PageTitleProps) {
   return (
-    <div className={styles.main}>
+    <div className="text-5xl font-[bold] pb-[30px]">
       <h1>{title}</h1>
-      <hr className={styles.separator}/>
+      <hr className="rounded-[3px] border-[3px] border-solid"/>
     </div>
   )
 }
