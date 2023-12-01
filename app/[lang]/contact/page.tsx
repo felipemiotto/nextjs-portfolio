@@ -20,13 +20,13 @@ export default async function Contact(
         <div className="flex flex-col">
           <h2 className={styles.subtitle}>{dictionary.contact["social-media"]}</h2>
           <div className="flex flex-col">
-            <Link href={'https://www.linkedin.com/in/felipe-a-miotto/'}>
+            <Link target="_blank" href={'https://www.linkedin.com/in/felipe-a-miotto/'}>
               Linkedin
             </Link>
-            <Link href={'https://github.com/felipemiotto'}>
+            <Link target="_blank" href={'https://github.com/felipemiotto'}>
               Github
             </Link>
-            <Link href={'https://twitter.com/felipeam_tech'}>
+            <Link target="_blank" href={'https://twitter.com/felipeam_tech'}>
               Twitter
             </Link>        
           </div>
