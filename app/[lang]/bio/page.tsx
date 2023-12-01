@@ -1,11 +1,16 @@
-export default function Bio() {
+import { getDictionary } from '@/lib/get-dictionary'
+import  { Locale } from '@/i18n-config'
+import PageTitle from '@/components/page-title/PageTitle'
+
+export default async function Bio(
+  { params: {lang}}: { params: { lang: Locale }}
+) {
+  const dictionary = await getDictionary(lang)
+
   return (
     <main className="page-content">
-      <h1>Biografy</h1>
-      <p>asd asd  d asdf ASDs adSDAsda ASD asdA Dsasd ASD asdA SD asd</p>
-      <p>asd asd  d asdf ASDs adSDAsda ASD asdA Dsasd ASD asdA SD asd</p>
-      <p>asd asd  d asdf ASDs adSDAsda ASD asdA Dsasd ASD asdA SD asd</p>
-      <p>asd asd  d asdf ASDs adSDAsda ASD asdA Dsasd ASD asdA SD asd</p>
+      <PageTitle title={dictionary.bio.title}/>
+      <p>{dictionary.bio.text}</p>
     </main>
   )
 }
