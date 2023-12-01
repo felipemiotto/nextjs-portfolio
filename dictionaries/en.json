@@ -7,6 +7,7 @@
       "see-my-experiences": "See my experiences"
    },
    "studies": {
+      "title": "Estudos",
       "big-o": "BigO",
       "arrays": "Arrays",
       "hash-map": "HashMap",

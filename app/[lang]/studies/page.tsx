@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './styles.module.css'
 import { getDictionary } from '@/lib/get-dictionary'
 import  { Locale } from '@/i18n-config'
+import PageTitle from '@/components/page-title/PageTitle'
 
 async function Studies(
   { params: {lang}}: { params: { lang: Locale }}
@@ -14,6 +15,8 @@ async function Studies(
   
   return (
     <main className="page-content pb-10">
+      <PageTitle title={dictionary.studies.title}/>
+
       <div className="flex flex-col">
         <Link className={styles.disabled} href={'/studies/big-o'}>
           {dictionary.studies['big-o']} - <span className={styles.notImplementedYet}>{notImplementedYet}</span>
