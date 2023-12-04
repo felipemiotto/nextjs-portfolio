@@ -92,7 +92,8 @@
     },
     "bio": {
         "title": "Bio",
-        "text": "Olá! Meu nome é Felipe Antônio Miotto, sou um cara um pouco desligado de mídias sociais mas muito focado no mundo da tecnologia. Sou um desenvolvedor de soluções web do Brasil, que resolve os mais diversos problemas. Gosto muito de música, de fazer música e passar bons momentos com a minha família e em contato com a natureza. Sou muito curioso e busco sempre aprimorar as minhas habilidades técnicas e pessoais."
+        "text": "Olá! Meu nome é Felipe Antônio Miotto, sou um cara um pouco desligado de mídias sociais mas muito focado no mundo da tecnologia. Sou um desenvolvedor de soluções web do Brasil, que resolve os mais diversos problemas. Gosto muito de música, de fazer música e passar bons momentos com a minha família e em contato com a natureza. Sou muito curioso e busco sempre aprimorar as minhas habilidades técnicas e pessoais.",
+        "resume": "Currículo"
     },
     "messages": {
         "notImplementedYet": "Ainda não implementado"

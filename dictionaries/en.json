@@ -92,7 +92,8 @@
    },
    "bio": {
       "title": "Bio",
-      "text": "Hello there! My name is Felipe Antônio Miotto, I'm guy a little disconnected from social media but very focused on the world of technology. I'm a web solutions developer from Brazil, who solves the most diverse problems. I really like music, making music and spending quality time with my family and in contact with nature. I am very curious and always seek to improve my technical and personal skills."
+      "text": "Hello there! My name is Felipe Antônio Miotto, I'm guy a little disconnected from social media but very focused on the world of technology. I'm a web solutions developer from Brazil, who solves the most diverse problems. I really like music, making music and spending quality time with my family and in contact with nature. I am very curious and always seek to improve my technical and personal skills.",
+      "resume": "Resume"
    },
    "messages": {
       "notImplementedYet": "Not implemented yet"
