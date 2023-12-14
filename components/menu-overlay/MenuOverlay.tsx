@@ -1,3 +1,5 @@
+'use client'
+import { usePathname } from 'next/navigation'
 import React from 'react'
 import Link from 'next/link'
 import SocialMedia from '../social-media/SocialMedia'
@@ -8,6 +10,7 @@ type MenuOverlayProps = {
 }
 
 const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
+    const isEn = usePathname().includes('/en')
   return (
     <nav className={`
         fixed flex left-0 w-full px-10 z-10 h-screen
@@ -23,7 +26,8 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
                     setNavbarOpen(false);
                 }}
                 >
-                    Home
+                    {isEn? "Home" : "Início"}
+
                 </Link>
             </li>
             <li className="nav-li flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
@@ -34,7 +38,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
                     setNavbarOpen(false);
                 }}
                 >
-                Bio
+                    Bio
                 </Link>
             </li>
             <li className="nav-li flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
@@ -45,7 +49,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
                     setNavbarOpen(false);
                 }}
                 >
-                Experiences
+                    {isEn? "Experiences" : "Experiências"}
                 </Link>
             </li>
             <li className="nav-li flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
@@ -56,7 +60,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
                     setNavbarOpen(false);
                 }}
                 >
-                Contact
+                    {isEn? "Contact" : "Contato"}
                 </Link>
             </li>
             <li className="nav-li flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
@@ -67,7 +71,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }: MenuOverlayProps) => {
                     setNavbarOpen(false);
                 }}
                 >
-                Studies
+                    {isEn? "Studies" : "Estudos"}
                 </Link>
             </li>
             <li className='mt-16'>
